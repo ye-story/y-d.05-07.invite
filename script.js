@@ -9,7 +9,7 @@ const id = urlParams.get('id');
 
 const baseImgPath = './img/guests/';
 
-if (+id && !isNaN(+id) && (+id <= 18) && (+id > 0)) { 
+if (+id && !isNaN(+id) && (+id <= 19) && (+id > 0)) { 
  img1.src = baseImgPath + `${id}.webp`; 
 }
 else {

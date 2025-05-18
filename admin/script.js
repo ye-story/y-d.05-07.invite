@@ -17,7 +17,8 @@ const names = [
   { id: "15", names: "Антон и Анна" },
   { id: "16", names: "Иван и Ирина" },
   { id: "17", names: "Шота" },
-  { id: "18", names: "Василий" }
+  { id: "18", names: "Василий" },
+  { id: "19", names: "Мама и папа" }
 ];
 
 const baseURL = location.href.replace('admin/', ''); //location.origin
